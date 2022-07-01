@@ -1,0 +1,33 @@
+/* font-family: 'Raleway',sans-serif;
+font-family: 'Roboto',sans-serif; */
+/* описание переменных цвета */
+
+/* 
+black #212121  основной цвет  
+blk1 #000000 лого/2 
+blk2 #2F303A фон 1 секцииб футер
+gray #757575 телефоны шапка/ текст секции2
+
+
+white #FFFFFF   фон шапки
+
+blue #2196F3    лого/1   активная ссылка
+
+white transp #FFFFFF 60%   телефоны футер
+gray1 #ECECEC  рамка шапка (линия)
+gray2 #F5F4FA   фон секции наша команда, кнопки портфолио
+серый  #EEEEEE   рамка портфолио
+*/
+
+
+
+:root {
+    --black: #212121;
+    /*изменить*/
+}
+
+body {
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+
+}
