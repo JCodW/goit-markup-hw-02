@@ -29,8 +29,9 @@ gray2 #F5F4FA   фон секции наша команда, кнопки пор
     --accent-blue: #2196F3;
     --btn-hover: #188CE8;
     --white-color: #ffffff;
-    --background-color: #2F303A;
-    --footer-contact: rgba(100% 100%, 100%, 0.6);
+    --background-dark: #2F303A;
+    --background-light: #F5F4FA;
+    --footer-contact: rgba(100%, 100%, 100%, 0.6);
     /*изменить*/
 }
 
@@ -58,10 +59,12 @@ body {
 }
 
 
+.link {
+    color: var(--main-black, black);
+}
 
 .link {
     text-decoration: none;
-    color: var(--main-black, black);
 }
 
 .link:hover,
@@ -83,7 +86,7 @@ body {
 }
 
 .hero {
-    background-color: var(--background-color, black);
+    background-color: var(--background-dark, black);
     ;
     color: var(--white-color, white);
 
@@ -121,15 +124,51 @@ body {
 }
 
 .footer {
-    color: white;
-    background-color: var(--background-color, black);
+    background-color: var(--background-dark, black);
+
+}
+
+.footer .logo {
+    color: var(--white-color, white);
     ;
 }
 
 .footer .link {
-    color: white;
+    color: var(--footer-contact, gray);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
 }
 
-.link .contact {
-    color: var(--footer-contact, gray);
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-blue, blue);
+}
+
+
+
+.footer .addr {
+    color: var(--white-color, white);
+    ;
+}
+
+
+.category-btn {
+    background-color: var(--background-light, grey);
+    color: var(--main-black, black);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    border: none;
+    border-radius: 4px;
+}
+
+.category-btn:hover {
+    background-color: var(--accent-blue, blue);
+    color: var(--white-color, white);
 }
