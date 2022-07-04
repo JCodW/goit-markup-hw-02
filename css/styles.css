@@ -153,6 +153,36 @@ body {
     ;
 }
 
+.section h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+.feature-list .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    /* text-transform: uppercase; */
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 118%;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team {
+    background-color: var(--background-light, grey);
+
+}
 
 .category-btn {
     background-color: var(--background-light, grey);
