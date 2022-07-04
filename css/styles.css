@@ -3,16 +3,17 @@ font-family: 'Roboto',sans-serif; */
 /* описание переменных цвета */
 
 /* 
-black #212121  основной цвет  
+gray #757575 основной телефоны шапка/ текст секции2
+black #212121  основной черный цвет  
 blk1 #000000 лого/2 
 blk2 #2F303A фон 1 секцииб футер
-gray #757575 телефоны шапка/ текст секции2
+
 
 
 white #FFFFFF   фон шапки
 
-blue #2196F3    лого/1   активная ссылка
-
+blue #2196F3    лого/1   активная ссылка, фон кнопки
+blue btn hover #188CE8     hover кнопки Hero
 white transp #FFFFFF 60%   телефоны футер
 gray1 #ECECEC  рамка шапка (линия)
 gray2 #F5F4FA   фон секции наша команда, кнопки портфолио
@@ -22,12 +23,113 @@ gray2 #F5F4FA   фон секции наша команда, кнопки пор
 
 
 :root {
-    --black: #212121;
+    --main-color: #757575;
+    --main-black: #212121;
+    --logo-black: #000000;
+    --accent-blue: #2196F3;
+    --btn-hover: #188CE8;
+    --white-color: #ffffff;
+    --background-color: #2F303A;
+    --footer-contact: rgba(100% 100%, 100%, 0.6);
     /*изменить*/
 }
 
 body {
-    color: var(--black);
+    color: var(--main-color);
     font-family: 'Roboto', sans-serif;
 
+}
+
+.logo {
+    color: var(--logo-black, black);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    text-decoration: none;
+}
+
+.logo span {
+    color: var(--accent-blue, blue);
+}
+
+.logo:hover {
+    text-decoration: underline;
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: var(--main-black, black);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-blue, blue);
+}
+
+.list {
+    list-style: none;
+}
+
+.current {
+    color: var(--accent-blue, blue);
+}
+
+.current:hover,
+.current:focus {
+    color: var(--black, black);
+}
+
+.hero {
+    background-color: var(--background-color, black);
+    ;
+    color: var(--white-color, white);
+
+}
+
+.hero h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    background-color: var(--accent-blue, blue);
+    color: var(--main-white, white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    border: none;
+    border-radius: 4px;
+}
+
+.hero .btn:hover {
+    background-color: var(--btn-hover, skyblue);
+}
+
+.title {
+    color: var(--main-black, black);
+}
+
+.footer {
+    color: white;
+    background-color: var(--background-color, black);
+    ;
+}
+
+.footer .link {
+    color: white;
+}
+
+.link .contact {
+    color: var(--footer-contact, gray);
 }
