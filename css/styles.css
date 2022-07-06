@@ -19,171 +19,199 @@ gray2 #F5F4FA   фон секции наша команда, кнопки пор
 */
 
 :root {
-	--main-color: #757575;
-	--main-black: #212121;
-	--logo-black: #000000;
-	--accent-blue: #2196f3;
-	--btn-hover: #188ce8;
-	--white-color: #ffffff;
-	--background-dark: #2f303a;
-	--background-light: #f5f4fa;
-	--footer-contact: rgba(100%, 100%, 100%, 0.6);
-	/*изменить*/
+    --main-color: #757575;
+    --main-black: #212121;
+    --logo-black: #000000;
+    --accent-blue: #2196f3;
+    --btn-hover: #188ce8;
+    --white-color: #ffffff;
+    --background-dark: #2f303a;
+    --background-light: #f5f4fa;
+    --footer-contact: rgba(100%, 100%, 100%, 0.6);
+    --portfolio-element: #EEEEEE;
+    /*изменить*/
 }
 
 body {
-	color: var(--main-color);
-	font-family: "Roboto", sans-serif;
+    color: var(--main-color);
+    font-family: "Roboto", sans-serif;
 }
 
 /* логотип */
 .logo {
-	color: var(--logo-black, black);
-	font-family: "Raleway";
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 120%;
-	text-decoration: none;
+    color: var(--logo-black, black);
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    text-decoration: none;
 }
 
 .logo span {
-	color: var(--accent-blue, blue);
+    color: var(--accent-blue, blue);
 }
 
 .logo:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .link {
-	text-decoration: none;
-	color: var(--main-black, black);
+    text-decoration: none;
+    color: var(--main-black, black);
 }
 
 .link:hover,
 .link:focus {
-	color: var(--accent-blue, blue);
-	text-decoration: underline;
+    color: var(--accent-blue, blue);
+    text-decoration: underline;
 }
 
 .list {
-	list-style: none;
+    list-style: none;
 }
 
 .current {
-	color: var(--accent-blue, blue);
+    color: var(--accent-blue, blue);
 }
 
 .current:hover,
 .current:focus {
-	color: var(--black, black);
+    color: var(--black, black);
 }
 
 .hero {
-	background-color: var(--background-dark, black);
-	color: var(--white-color, white);
+    background-color: var(--background-dark, black);
+    color: var(--white-color, white);
 }
 
 .hero-title {
-	font-weight: 900;
-	font-size: 44px;
-	line-height: 136%;
-	text-align: center;
-	letter-spacing: 0.06em;
-	text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-btn {
-	background-color: var(--accent-blue, blue);
-	color: var(--main-white, white);
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 188%;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.06em;
-
-	border: none;
-	border-radius: 4px;
+    background-color: var(--accent-blue, blue);
+    color: var(--main-white, white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-btn:hover {
-	background-color: var(--btn-hover, skyblue);
-	cursor: pointer;
+    background-color: var(--btn-hover, skyblue);
+    cursor: pointer;
 }
 
 .title {
-	color: var(--main-black, black);
+    color: var(--main-black, black);
 }
 
 .footer {
-	background-color: var(--background-dark, black);
+    background-color: var(--background-dark, black);
 }
 
 .footer .logo {
-	color: var(--white-color, white);
+    color: var(--white-color, white);
 }
 
 .footer .link {
-	color: var(--footer-contact, gray);
-	font-weight: 400;
-	font-size: 14px;
-	font-style: normal;
-	line-height: 171%;
-	letter-spacing: 0.03em;
+    color: var(--footer-contact, gray);
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 171%;
+    letter-spacing: 0.03em;
 }
 
 .footer .link:hover,
 .footer .link:focus {
-	color: var(--accent-blue, blue);
+    color: var(--accent-blue, blue);
 }
 
 .footer .addr {
-	color: var(--white-color, white);
+    color: var(--white-color, white);
 }
 
 .section-title {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 42px;
-	text-align: center;
-	letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .feature-list .title {
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 16px;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .team-title {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 118%;
-	text-align: center;
-	letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 118%;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team {
-	background-color: var(--background-light, grey);
+    background-color: var(--background-light, grey);
 }
 
 .category-btn {
-	background-color: var(--background-light, grey);
-	color: var(--main-black, black);
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 162%;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.06em;
-	border: none;
-	border-radius: 4px;
+    background-color: var(--background-light, grey);
+    color: var(--main-black, black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: none;
+    border-radius: 4px;
 }
 
 .category-btn:hover {
-	background-color: var(--accent-blue, blue);
-	color: var(--white-color, white);
-	cursor: pointer;
+    background-color: var(--accent-blue, blue);
+    color: var(--white-color, white);
+    cursor: pointer;
+}
+
+.portfolio-element {
+    border: 1px solid var(--portfolio-element, grey);
+}
+
+.portfolio-link {
+    text-decoration: none;
+}
+
+.portfolio-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+
+
+    letter-spacing: 0.06em;
+    color: var(--main-black, black);
+}
+
+.portfolio-text {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.06em;
+    color: var(--main-color, gray);
 }
