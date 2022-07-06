@@ -1,5 +1,3 @@
-/* font-family: 'Raleway',sans-serif;
-font-family: 'Roboto',sans-serif; */
 /* описание переменных цвета */
 
 /* 
@@ -25,7 +23,7 @@ gray2 #F5F4FA               bgc-team section    bgc-btn-cat
 	--main-black: #212121; /*secondary-color*/
 	--title-color: #212121;
 	--logo-black: #000000;
-	--accent-logo: #2196f3;
+	--logo-accent: #2196f3;
 	--accent-blue: #2196f3;
 
 	--btn-hover: #188ce8;
@@ -56,7 +54,7 @@ body {
 
 /* особая часть логотипа */
 .logo span {
-	color: var(--accent-logo, blue);
+	color: var(--logo-accent, blue);
 }
 
 /* .logo:hover {
@@ -92,7 +90,7 @@ body {
 .link:hover,
 .link:focus {
 	color: var(--accent-blue, blue);
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	transition: 0.3s;
 }
 
@@ -156,12 +154,7 @@ body {
 	cursor: pointer;
 }
 
-/* параметры заголовков */
-.features-title,
-.section-title,
-.team-title {
-	color: var(--title-color, black);
-}
+/* параметры заголовка секций */
 
 .section-title {
 	font-weight: 700;
@@ -169,22 +162,30 @@ body {
 	line-height: 117%;
 	text-align: center;
 	letter-spacing: 0.03em;
+	color: var(--title-color, black);
 }
 
-.features .title {
+/* наши преимущества */
+.features-title {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 114%;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	color: var(--title-color, black);
 }
 
-.features .text {
+.features-text {
 	/* font-weight: 400; */
 	font-size: 14px;
 	line-height: 171%;
 	letter-spacing: 0.03em;
 	columns: var(--main-color);
+}
+
+/* наша команда */
+.team {
+	background-color: var(--background-light, grey);
 }
 
 .team-card {
@@ -196,6 +197,7 @@ body {
 	line-height: 118%;
 	text-align: center;
 	letter-spacing: 0.03em;
+	color: var(--title-color, black);
 }
 
 .team-text {
@@ -205,10 +207,8 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 }
-.team {
-	background-color: var(--background-light, grey);
-}
 
+/* подвал */
 .footer {
 	background-color: var(--background-dark, black);
 }
@@ -235,6 +235,7 @@ body {
 	color: var(--white-color, white);
 }
 
+/* кнопки выбора категорий портфолио */
 .category-btn {
 	background-color: var(--background-btn, grey);
 	color: var(--main-black, black);
@@ -248,12 +249,14 @@ body {
 	border-radius: 4px;
 }
 
+/* эффект наведения */
 .category-btn:hover {
 	background-color: var(--btn-hover, blue);
 	color: var(--white-color, white);
 	cursor: pointer;
 }
 
+/* портфолио */
 .portfolio-element {
 	border: 1px solid var(--portfolio-element, grey);
 }
