@@ -258,7 +258,7 @@ body {
 	border: 1px solid var(--portfolio-element, grey);
 }
 .portfolio-element:hover {
-	text-shadow: 1px 1px 4px var(--main-color);
+	text-shadow: 1px 1px 2px var(--main-color);
 }
 
 .portfolio-link {
