@@ -98,7 +98,7 @@ body {
 .link:hover,
 .link:focus {
     color: var(--link-hover, blue);
-    /* text-decoration: underline; */
+    text-decoration: underline;
     transition: 0.3s;
 }
 
