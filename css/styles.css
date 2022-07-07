@@ -1,13 +1,10 @@
 /* описание переменных цвета */
-
 /* 
 gray #757575                nav-contact  features-text team-text   portfolio-text
 black #212121               nav-site  features-title  section-title  team-title  btn-cat-text  portfolio-title
 blk1 #000000                logo color
 blk2 #2F303A                bgc-hero  bgc-footer
-
 white #FFFFFF               bgc-header main  bgc-team-element   hero-title  text-btn-active
-
 blue #2196F3                logo-accent btn-hero-bgc active-link  bgc-cat-btn active
 blue btn hover #188CE8      hero-btn-hover
 white transp #FFFFFF 60%    footer-contact
@@ -15,7 +12,9 @@ gray1 #ECECEC               border header
 gray2 #F5F4FA               bgc-team section    bgc-btn-cat
 серый  #EEEEEE              border portfolio
 */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+/* подключение шрифта через CSS
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"); 
+*/
 
 /* описание переменных цвета */
 :root {
@@ -118,7 +117,6 @@ body {
 .current {
     color: var(--current-color, blue);
 }
-
 
 /* секция Герой */
 .hero {
