@@ -166,7 +166,8 @@ body {
 }
 
 /* скрытие отображения заголовка */
-.features .section-title {
+.features .section-title,
+.portfolio-main {
     opacity: 0;
 }
 
