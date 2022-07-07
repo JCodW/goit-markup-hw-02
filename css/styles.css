@@ -98,7 +98,7 @@ body {
 .link:hover,
 .link:focus {
     color: var(--link-hover, blue);
-    text-decoration: underline;
+    /* text-decoration: underline; */
     transition: 0.3s;
 }
 
@@ -119,12 +119,6 @@ body {
     color: var(--current-color, blue);
 }
 
-/* выделенная текущая страница */
-.current:hover,
-.current:focus {
-    color: var(--link-hover-inv, black);
-    transition: 0.2s;
-}
 
 /* секция Герой */
 .hero {
