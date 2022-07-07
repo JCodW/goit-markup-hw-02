@@ -66,9 +66,9 @@ body {
 	text-decoration: underline;
 	transition: 0.3s;
 } */
-.header {
+/* .header {
     border-bottom: 1px solid var(--header-line);
-}
+} */
 
 /* навигация в шапке */
 .site-nav .link {
@@ -263,9 +263,9 @@ body {
 }
 
 /* портфолио */
-.portfolio-element {
+/* .portfolio-element {
     border: 1px solid var(--portfolio-element, grey);
-}
+} */
 
 .portfolio-element:hover {
     text-shadow: 1px 1px 2px var(--primary-color);
