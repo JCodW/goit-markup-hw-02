@@ -257,7 +257,8 @@ body {
 }
 
 /* эффект наведения */
-.category-btn:hover {
+.category-btn:hover,
+.category-btn:focus {
     background-color: var(--btn-hover, blue);
     color: var(--white-color, white);
     cursor: pointer;
